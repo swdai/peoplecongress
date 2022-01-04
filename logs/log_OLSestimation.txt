@@ -1,0 +1,278 @@
+
+Call:
+glm(formula = result ~ research_score + Topic1 + Topic2 + Topic3 + 
+    Topic4 + Topic5 + Topic6 + Topic7 + Topic8 + Topic9 + Topic10 + 
+    Topic11 + Topic12 + Topic13 + Topic14 + Topic15 + Topic16 + 
+    Topic17 + Topic18 + Topic19 + Topic20 + Topic21 + Topic21 + 
+    Topic23 + Topic24 + Topic25 + Topic26 + Topic27 + Topic28 + 
+    Topic29 + Topic30, family = binomial(link = "probit"), data = opinres_new)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.9531   0.3264   0.5132   0.6490   1.3036  
+
+Coefficients:
+               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     1.10315    0.45347   2.433 0.014987 *  
+research_score  0.05149    0.02061   2.498 0.012502 *  
+Topic1         -0.71676    0.48446  -1.480 0.139003    
+Topic2         -0.84004    0.44949  -1.869 0.061638 .  
+Topic3         -0.93478    0.50895  -1.837 0.066257 .  
+Topic4         -1.09281    0.45612  -2.396 0.016580 *  
+Topic5         -0.37815    0.51888  -0.729 0.466142    
+Topic6         -0.90592    0.49871  -1.817 0.069291 .  
+Topic7         -1.11067    0.47308  -2.348 0.018888 *  
+Topic8         -1.22830    0.49112  -2.501 0.012385 *  
+Topic9         -1.68092    0.44108  -3.811 0.000138 ***
+Topic10        -0.45264    0.47287  -0.957 0.338463    
+Topic11         0.68200    0.61478   1.109 0.267284    
+Topic12        -0.90782    0.47936  -1.894 0.058250 .  
+Topic13        -0.13712    0.48670  -0.282 0.778145    
+Topic14         0.08137    0.67164   0.121 0.903570    
+Topic15        -0.38887    0.52844  -0.736 0.461798    
+Topic16        -1.17630    0.45940  -2.561 0.010451 *  
+Topic17        -0.76544    0.59529  -1.286 0.198507    
+Topic18        -0.65757    0.52779  -1.246 0.212808    
+Topic19        -0.79457    0.52018  -1.528 0.126635    
+Topic20        -0.73021    0.49400  -1.478 0.139366    
+Topic21        -0.84787    0.46908  -1.808 0.070681 .  
+Topic23        -0.19953    0.65335  -0.305 0.760067    
+Topic24        -0.60652    0.49759  -1.219 0.222883    
+Topic25        -0.60992    0.47843  -1.275 0.202363    
+Topic26        -0.19392    0.49506  -0.392 0.695270    
+Topic27        -0.54634    0.51309  -1.065 0.286967    
+Topic28        -0.68377    0.47663  -1.435 0.151402    
+Topic29        -0.45177    0.47974  -0.942 0.346345    
+Topic30        -1.25770    0.59501  -2.114 0.034535 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1175.0  on 1280  degrees of freedom
+Residual deviance: 1076.9  on 1250  degrees of freedom
+AIC: 1138.9
+
+Number of Fisher Scoring iterations: 6
+
+0.908<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.479)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic13</td><td>-0.137</td></tr>
+<tr><td style="text-align:left"></td><td>(0.487)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic14</td><td>0.081</td></tr>
+<tr><td style="text-align:left"></td><td>(0.672)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic15</td><td>-0.389</td></tr>
+<tr><td style="text-align:left"></td><td>(0.528)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic16</td><td>-1.176<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.459)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic17</td><td>-0.765</td></tr>
+<tr><td style="text-align:left"></td><td>(0.595)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic18</td><td>-0.658</td></tr>
+<tr><td style="text-align:left"></td><td>(0.528)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic19</td><td>-0.795</td></tr>
+<tr><td style="text-align:left"></td><td>(0.520)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic20</td><td>-0.730</td></tr>
+<tr><td style="text-align:left"></td><td>(0.494)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic21</td><td>-0.848<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.469)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic23</td><td>-0.200</td></tr>
+<tr><td style="text-align:left"></td><td>(0.653)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic24</td><td>-0.607</td></tr>
+<tr><td style="text-align:left"></td><td>(0.498)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic25</td><td>-0.610</td></tr>
+<tr><td style="text-align:left"></td><td>(0.478)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic26</td><td>-0.194</td></tr>
+<tr><td style="text-align:left"></td><td>(0.495)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic27</td><td>-0.546</td></tr>
+<tr><td style="text-align:left"></td><td>(0.513)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic28</td><td>-0.684</td></tr>
+<tr><td style="text-align:left"></td><td>(0.477)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic29</td><td>-0.452</td></tr>
+<tr><td style="text-align:left"></td><td>(0.480)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic30</td><td>-1.258<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.595)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>1.103<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.453)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>1,281</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-538.446</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>1,138.893</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+
+<table style="text-align:center"><tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>result</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">research_score</td><td>0.051<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.021)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic1</td><td>-0.717</td></tr>
+<tr><td style="text-align:left"></td><td>(0.484)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic2</td><td>-0.840<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.449)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic3</td><td>-0.935<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.509)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic4</td><td>-1.093<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.456)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic5</td><td>-0.378</td></tr>
+<tr><td style="text-align:left"></td><td>(0.519)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic6</td><td>-0.906<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.499)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic7</td><td>-1.111<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.473)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic8</td><td>-1.228<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.491)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic9</td><td>-1.681<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.441)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic10</td><td>-0.453</td></tr>
+<tr><td style="text-align:left"></td><td>(0.473)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic11</td><td>0.682</td></tr>
+<tr><td style="text-align:left"></td><td>(0.615)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic12</td><td>-0.908<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.479)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic13</td><td>-0.137</td></tr>
+<tr><td style="text-align:left"></td><td>(0.487)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic14</td><td>0.081</td></tr>
+<tr><td style="text-align:left"></td><td>(0.672)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic15</td><td>-0.389</td></tr>
+<tr><td style="text-align:left"></td><td>(0.528)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic16</td><td>-1.176<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.459)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic17</td><td>-0.765</td></tr>
+<tr><td style="text-align:left"></td><td>(0.595)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic18</td><td>-0.658</td></tr>
+<tr><td style="text-align:left"></td><td>(0.528)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic19</td><td>-0.795</td></tr>
+<tr><td style="text-align:left"></td><td>(0.520)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic20</td><td>-0.730</td></tr>
+<tr><td style="text-align:left"></td><td>(0.494)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic21</td><td>-0.848<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.469)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic23</td><td>-0.200</td></tr>
+<tr><td style="text-align:left"></td><td>(0.653)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic24</td><td>-0.607</td></tr>
+<tr><td style="text-align:left"></td><td>(0.498)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic25</td><td>-0.610</td></tr>
+<tr><td style="text-align:left"></td><td>(0.478)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic26</td><td>-0.194</td></tr>
+<tr><td style="text-align:left"></td><td>(0.495)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic27</td><td>-0.546</td></tr>
+<tr><td style="text-align:left"></td><td>(0.513)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic28</td><td>-0.684</td></tr>
+<tr><td style="text-align:left"></td><td>(0.477)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic29</td><td>-0.452</td></tr>
+<tr><td style="text-align:left"></td><td>(0.480)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Topic30</td><td>-1.258<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.595)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>1.103<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.453)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>1,281</td></tr>
+<tr><td style="text-align:left">Log Likelihood</td><td>-538.446</td></tr>
+<tr><td style="text-align:left">Akaike Inf. Crit.</td><td>1,138.893</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
+
+Call:
+glm(formula = result ~ research_score + Topic1 + Topic2 + Topic3 + 
+    Topic4 + Topic5 + Topic6 + Topic7 + Topic8 + Topic9 + Topic10 + 
+    Topic11 + Topic12 + Topic13 + Topic14 + Topic15 + Topic16 + 
+    Topic17 + Topic18 + Topic19 + Topic20 + Topic21 + Topic21 + 
+    Topic23 + Topic24 + Topic25 + Topic26 + Topic27 + Topic28 + 
+    Topic29 + Topic30, family = binomial(link = "probit"), data = opinres_new)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.9531   0.3264   0.5132   0.6490   1.3036  
+
+Coefficients:
+               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     1.10315    0.45347   2.433 0.014987 *  
+research_score  0.05149    0.02061   2.498 0.012502 *  
+Topic1         -0.71676    0.48446  -1.480 0.139003    
+Topic2         -0.84004    0.44949  -1.869 0.061638 .  
+Topic3         -0.93478    0.50895  -1.837 0.066257 .  
+Topic4         -1.09281    0.45612  -2.396 0.016580 *  
+Topic5         -0.37815    0.51888  -0.729 0.466142    
+Topic6         -0.90592    0.49871  -1.817 0.069291 .  
+Topic7         -1.11067    0.47308  -2.348 0.018888 *  
+Topic8         -1.22830    0.49112  -2.501 0.012385 *  
+Topic9         -1.68092    0.44108  -3.811 0.000138 ***
+Topic10        -0.45264    0.47287  -0.957 0.338463    
+Topic11         0.68200    0.61478   1.109 0.267284    
+Topic12        -0.90782    0.47936  -1.894 0.058250 .  
+Topic13        -0.13712    0.48670  -0.282 0.778145    
+Topic14         0.08137    0.67164   0.121 0.903570    
+Topic15        -0.38887    0.52844  -0.736 0.461798    
+Topic16        -1.17630    0.45940  -2.561 0.010451 *  
+Topic17        -0.76544    0.59529  -1.286 0.198507    
+Topic18        -0.65757    0.52779  -1.246 0.212808    
+Topic19        -0.79457    0.52018  -1.528 0.126635    
+Topic20        -0.73021    0.49400  -1.478 0.139366    
+Topic21        -0.84787    0.46908  -1.808 0.070681 .  
+Topic23        -0.19953    0.65335  -0.305 0.760067    
+Topic24        -0.60652    0.49759  -1.219 0.222883    
+Topic25        -0.60992    0.47843  -1.275 0.202363    
+Topic26        -0.19392    0.49506  -0.392 0.695270    
+Topic27        -0.54634    0.51309  -1.065 0.286967    
+Topic28        -0.68377    0.47663  -1.435 0.151402    
+Topic29        -0.45177    0.47974  -0.942 0.346345    
+Topic30        -1.25770    0.59501  -2.114 0.034535 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1175.0  on 1280  degrees of freedom
+Residual deviance: 1076.9  on 1250  degrees of freedom
+AIC: 1138.9
+
+Number of Fisher Scoring iterations: 6
+
