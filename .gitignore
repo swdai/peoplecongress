@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+datasets_original/Responses_scored_ori.xlsx
+datasets_original/Opinres_scored_ori.xlsx
+datasets_original/Opinions_scored_ori.xls
+datasets/*
+backup/*
